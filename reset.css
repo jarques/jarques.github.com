@@ -79,6 +79,10 @@ a:hover {color: #000; text-decoration: underline}
     margin-bottom: 13px;
     color: #858282;
 }
+#content p span {
+    font-size: 12px;
+    opacity: .6;
+}
 #content p.quote {
     font-size: 11px;
     margin: 0 20px 13px 20px;

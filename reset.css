@@ -70,6 +70,9 @@ a:hover {color: #000; text-decoration: underline}
     margin-bottom: 6px;
     color: #4d4848;
 }
+#content h1 span {
+    opacity: .4;
+}
 #content p {
     font-size: 13px;
     line-height: 20px;

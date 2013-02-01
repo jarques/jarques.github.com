@@ -49,25 +49,32 @@ table {
 	border-spacing: 0;
 }
 * {font-family: "Helvetica Neue", Arial, sans-serif;}
-a:link, a:visited {color: #000;  text-decoration: none; padding: 3px;background: #FFC;}
-a:hover {color: #000; text-decoration: none;background: yellow;}
-a:active {background: yellow;}
+a:link, a:visited {color: #4d4848;  text-decoration: none;}
+a:hover {color: #000; text-decoration: underline}
 
 #content {
     width: 490px;
     margin: 50px auto;
-    background: #fff;
     padding: 40px;
+    text-align: center;
+}
+#logo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgba(0,0,0,.05);
+    margin: 120px 0 40px 0;
 }
 #content h1 {
     font-size: 24px;
     margin-bottom: 6px;
+    color: #4d4848;
 }
 #content p {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 13px;
-    color: #656565;
+    color: #858282;
 }
 #content p.quote {
     font-size: 11px;
